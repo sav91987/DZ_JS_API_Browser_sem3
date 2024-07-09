@@ -1,0 +1,70 @@
+.card {
+  width: 330px;
+  padding: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  flex-direction: column;
+  gap: 15px;
+  margin: 10px;
+  border: 1px solid #ccc;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+}
+
+.history {
+  width: 330px;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 15px;
+  margin: 10px;
+  border: 1px solid #ccc;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3);
+  overflow: hidden;
+}
+
+
+.card h2 {
+  margin: 0;
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+}
+
+.history h2 {
+  margin: 0;
+}
+
+.history img {
+  width: 100%;
+  height: auto;
+}
+
+.card button {
+  cursor: pointer;
+}
+
+.card__span {
+
+  font-size: 30px;
+}
+
+.card__btn {
+  display: flex;
+  justify-content: space-between;
+}
+
+.btn_wrapper {
+  height: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.hidden {
+  display: none;
+}
