@@ -1,4 +1,4 @@
-//Для работы подставить в строке 75 вместо YOUR_ACCESS_KEY свой ключ с сайта https://unsplash.com/
+//Для работы подставить в строке 77 вместо YOUR_ACCESS_KEY свой ключ с сайта https://unsplash.com/
 
 const cardEl = document.querySelector(".card");
 const hystoryEl = document.querySelector(".history");
@@ -74,7 +74,7 @@ async function app() {
 
 async function fetchPhoto() {
     const response = await fetch(
-        `https://api.unsplash.com/photos/random?client_id=YOUR_ACCESS_KEY`
+        `https://api.unsplash.com/photos/random?client_id=YOUR_ACCESS_KEY`  //Заменить YOUR_ACCESS_KEY на свой ключ
     );
 
     if (!response.ok) {
